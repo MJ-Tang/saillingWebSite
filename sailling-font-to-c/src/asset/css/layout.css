@@ -1,0 +1,139 @@
+.flexSb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.canvas-wrapper {
+    min-height: 600px;
+    /* position: relative; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: right;
+    margin-left: 40px;
+}
+@media screen and (max-width: 900px) {
+    .canvas-wrapper{
+        min-height: 300px;
+        position: relative;
+        width: 100%;
+        display: block;
+        flex-wrap: none;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .canvas-wrapper canvas {
+        width: 100%;
+    }
+}
+
+
+.hero-btn-holder {
+    margin-top: 1.3rem;
+    margin-bottom: 2.5rem
+}
+
+
+.btn {
+    color: #E0E0E0;
+    background: #1E1E1E;
+    margin: 0;
+    border: 0;
+    --box-shadow-color: #2E2E2E;
+    -webkit-box-shadow: inset 0px 0px 0px 1px var(--box-shadow-color);
+    box-shadow: inset 0px 0px 0px 1px var(--box-shadow-color);
+    border-radius: 999px;
+    text-transform: lowercase;
+    padding: 1rem 2rem;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer
+}
+
+.btn:hover,.btn:focus {
+    color: #46BDC4;
+    text-decoration: none
+}
+
+.btn:focus {
+    outline: none
+}
+
+.btn:disabled {
+    pointer-events: none;
+    color: #2E2E2E
+}
+
+.magnet {
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease
+}
+
+.box {
+    width: 85%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .box{
+        width: 90%;
+        display: block;
+        flex-wrap: none;
+        margin-top: 120px;
+    }
+}
+
+.w5 {
+    max-width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .w5{
+        max-width: 100%;
+    }
+}
+.w90 {
+    max-width: 90%;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+.ml40 {
+    margin-left: 40px;
+}
+.ml60 {
+    margin-left: 60px;
+}
+.mr20 {
+    margin-right: 20px;
+}
+.mr40 {
+    margin-right: 40px;
+}
+
+
+
+
+
+.test {
+    height: 600px;
+}

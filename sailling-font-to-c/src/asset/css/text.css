@@ -1,0 +1,27 @@
+p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #a0a0a0;
+}
+
+.hero-container {
+    overflow-x: hidden
+}
+.hero-title {
+    font-size: 5em;
+    line-height: 1.111111;
+    text-transform: lowercase;
+    margin-bottom: 1.5rem;
+    font-weight: 500
+}
+@media screen and (max-width: 900px) {
+    .hero-title {
+        font-size: 3.5em;
+        line-height: 1.111111;
+        text-transform: lowercase;
+        margin-bottom: 1.5rem;
+        font-weight: 500
+    }
+}
